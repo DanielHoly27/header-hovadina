@@ -3,31 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opakování header k maturitě</title>
-
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/style.css">
-
-    <script src="/script/script.js"></script>
+    <title>Venca Tichý</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
+
     <header>
-        <div class="wrapper">
-            <a href="/" class="wrapper-logo">
-                <img src="/imgs/logo.webp" alt="#">
-            </a>
-            <nav>
-                <a href="#">Test1</a>
-                <a href="#">Test1</a>
-                <a href="#">Test1</a>
-            </nav>
-        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <span>SOUEPL</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Domů</a></li>
+                <li><a href="#">Obory</a></li>
+                <li><a href="#">Aktuality</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <a href="#" class="btn-login">Bakaláři</a>
+        </nav>
     </header>
-    <main>
 
+    <main class="hero custom-bg">
+        <div class="overlay"></div> <div class="content-wrapper">
+            <div class="status-badge">
+                <span class="dot"></span> Venca Tichý
+            </div>
+
+            <h1>Střední odborné učiliště<br>elektrotechnické Plzeň</h1>
+            
+            <p class="subtitle">
+               Tato škola vás připraví na zmary života interpretací deprese a bídy, jenž na vás učitelé lijí po hektolitrech
+
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary"> Naše obory&gt;</a>
+                
+                <a href="#" class="btn btn-ghost">Kontaktujte nás</a>
+            </div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-group">
+                <div class="stat-item">
+                    <strong>cca. 800</strong>
+                    <span>Žáků</span>
+                </div>
+                <div class="stat-item">
+                    <strong>5</strong>
+                    <span>Maturitních oborů</span>
+                </div>
+                <div class="stat-item">
+                    <strong>6</strong>
+                    <span>Brunclíků</span>
+                </div>
+            </div>
+
+        </div>
     </main>
-    <footer>
 
-    </footer>
 </body>
 </html>
